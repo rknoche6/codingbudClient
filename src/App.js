@@ -1,12 +1,14 @@
+import Home from "./pages/home/Home";
+import * as React from 'react';
+//import Button from '@mui/material/Button';
+
 /*import logo from './logo.svg';
 import './App.css';
 */
-function App() {
+export default function App() {
   return (
     <div >
-      <h1>Hello</h1>
+      <Home/>
     </div>
   );
 }
-
-export default App;

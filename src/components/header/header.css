@@ -1,0 +1,74 @@
+.headerContainer {
+    height: 75px;
+    width: 100%;
+    background-color: #f8a60c;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+  
+
+
+.leftSideHeader {
+    flex: 3;
+  }
+  
+  .logo, 
+  .homeClick{
+    font-size: 24px;
+    margin-left: 50px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+  }
+
+  
+  .middleSideHeader {
+    flex: 5;
+  }
+  
+  .searchBar {
+    width: 100%;
+    height: 45px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+  }
+
+
+  
+  .searchIcon {
+    font-size: 20px !important;
+    margin-left: 10px;
+  }
+  
+  .searchInput {
+    border: none;
+    width: 70%;
+  }
+  
+  .searchInput:focus {
+    outline: none;
+  }
+  
+  .rightSideHeader {
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+  }
+  
+
+  
+  .righHeaderIcons {
+    margin-right: 15px;
+    cursor: pointer;
+
+  }
+  
+
+  
