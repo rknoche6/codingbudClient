@@ -41,7 +41,7 @@
 
   
   .searchIcon {
-    font-size: 20px !important;
+    font-size: 30px !important;
     margin-left: 10px;
   }
   
@@ -58,14 +58,14 @@
     flex: 4;
     display: flex;
     align-items: center;
-    justify-content: space-around;
     color: white;
+
   }
   
 
   
   .righHeaderIcons {
-    margin-right: 15px;
+    margin-left: 120px;
     cursor: pointer;
 
   }
